@@ -12,7 +12,6 @@ public class Escalador extends Ciclista {
         this.aceleracionSubida = aceleracionSubida;
         this.gradoRampa = gradoRampa;
     }
-
     public void setAceleracionSubida(float aceleracionSubida) {
         this.aceleracionSubida = aceleracionSubida;
     }
