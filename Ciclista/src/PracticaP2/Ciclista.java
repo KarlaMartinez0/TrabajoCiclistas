@@ -41,7 +41,7 @@ abstract public class Ciclista {
     
     public void imprmDatos (){
         System.out.println("ID: " + id);
-        System.out.println("NOmbre: " + nombre);
+        System.out.println("Nombre: " + nombre);
         System.out.println("Tiempo acumulado: " + tiempoAcumulado);
     }
      
