@@ -4,10 +4,10 @@ package PracticaP2;
 
 public class Contrarelojista extends Ciclista {
 
-    private double velocidadMax = 0.0;
+    private double velocidadMax;
     
-    public Contrarelojista(int id, String nombre, double tiempoAcumulado) {
-        super(id, nombre, tiempoAcumulado);
+    public Contrarelojista(int id, String nombre, double velocidadMax) {
+        super(id, nombre);
         this.velocidadMax = velocidadMax;
     }
 

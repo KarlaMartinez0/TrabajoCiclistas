@@ -6,8 +6,8 @@ public class Velocista extends Ciclista {
     private double velocidadPrmdio;
     
 
-    public Velocista(double pontenciaPrmdio, double velocidadPrmdio, int id, String nombre, double tiempoAcumulado) {
-        super(id, nombre, tiempoAcumulado);
+    public Velocista(int id, String nombre, double pontenciaPrmdio, double velocidadPrmdio) {
+        super(id, nombre);
         this.pontenciaPrmdio = pontenciaPrmdio;
         this.velocidadPrmdio = velocidadPrmdio;
     }

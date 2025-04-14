@@ -5,12 +5,12 @@ package PracticaP2;
 abstract public class Ciclista {
     private int id;
     private String nombre;
-    private double tiempoAcumulado = 0.0;
+    private int tiempoAcumulado;
 
-    public Ciclista(int id, String nombre, double tiempoAcumulado) {
+    public Ciclista(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
-        this.tiempoAcumulado = tiempoAcumulado;
+        this.tiempoAcumulado = 0;
     }
 
     public void setId(int id) {
@@ -22,7 +22,7 @@ abstract public class Ciclista {
     }
 
     public void setTiempoAcumulado(double tiempoAcumulado) {
-        this.tiempoAcumulado = tiempoAcumulado;
+        this.tiempoAcumulado = (int) tiempoAcumulado;
     }
 
     public int getId() {
@@ -44,4 +44,5 @@ abstract public class Ciclista {
         System.out.println("NOmbre: " + nombre);
         System.out.println("Tiempo acumulado: " + tiempoAcumulado);
     }
+     
 }

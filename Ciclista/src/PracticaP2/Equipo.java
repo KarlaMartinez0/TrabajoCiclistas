@@ -10,14 +10,10 @@ public class Equipo {
     private static int tiempTotalEquipo;
     private List<Ciclista> ciclistas;
     
-    public Equipo(String nmbEquipo, String pais, List<Ciclista> ciclistas) {
+    public Equipo(String nmbEquipo, String pais) {
         this.nmbEquipo = nmbEquipo;
         this.pais = pais;
         this.ciclistas = new ArrayList<>();
-    }
-
-    Equipo(String team_Epa, String colombia) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public void setNmbEquipo(String nmbEquipo) {

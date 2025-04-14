@@ -7,8 +7,8 @@ public class Escalador extends Ciclista {
     private float aceleracionSubida;
     private float gradoRampa;
     
-    public Escalador(int id, String nombre, double tiempoAcumulado) {
-        super(id, nombre, tiempoAcumulado);
+    public Escalador(int id, String nombre, float aceleracionSubida, float gradoRampa) {
+        super(id, nombre);
         this.aceleracionSubida = aceleracionSubida;
         this.gradoRampa = gradoRampa;
     }
